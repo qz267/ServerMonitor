@@ -1,4 +1,4 @@
-#!/usr/bin/env Python   
+#!/usr/bin/env Python
 import os 
 def load_stat(): 
     loadavg = {} 

@@ -13,7 +13,7 @@ def CPUinfo():
     procinfo=OrderedDict()
  
     nprocs = 0
-    with open('/proc/CPUinfo') as f:
+    with open('/proc/cpuinfo') as f:
         for line in f:
             if not line.strip():
                 # end of one processor

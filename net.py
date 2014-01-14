@@ -7,7 +7,7 @@ if len(sys.argv) > 1:
 else:
     INTERFACE = 'eth0'
 STATS = []
-print 'Interface:',INTERFACE
+print 'Interface:', INTERFACE
  
 def rx():
     ifstat = open('/proc/net/dev').readlines()
